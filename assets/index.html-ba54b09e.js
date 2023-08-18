@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-77c254f0","path":"/myblog/","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"myology","slug":"myology","link":"#myology","children":[]}],"git":{},"filePathRelative":"myblog/index.md"}');export{e as data};
