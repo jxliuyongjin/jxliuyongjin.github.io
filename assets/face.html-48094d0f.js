@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-bf63e2ce","path":"/wechat/guide/face.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1692437064000,"contributors":[{"name":"刘勇进","email":"522585487@qq.com","commits":2}]},"filePathRelative":"wechat/guide/face.md"}');export{e as data};
