@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-77c254f0","path":"/myblog/","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"myology","slug":"myology","link":"#myology","children":[]}],"git":{"updatedTime":1692401149000,"contributors":[{"name":"刘勇进","email":"522585487@qq.com","commits":1}]},"filePathRelative":"myblog/index.md"}');export{e as data};
