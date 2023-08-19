@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-14c69af4","path":"/java/","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"myology dfdf","slug":"myology-dfdf","link":"#myology-dfdf","children":[]}],"git":{"updatedTime":1692434033000,"contributors":[{"name":"刘勇进","email":"522585487@qq.com","commits":1}]},"filePathRelative":"java/index.md"}');export{e as data};
