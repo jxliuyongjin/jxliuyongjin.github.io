@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-29ab7748","path":"/wechat/guide/daima.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"wechat/guide/daima.md"}');export{t as data};

@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,b as d}from"./app-50aadc95.js";const c={},n=e("h2",{id:"myology-dfdf",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#myology-dfdf","aria-hidden":"true"},"#"),d(" myology dfdf")],-1),r=[n];function s(_,f){return t(),a("div",null,r)}const l=o(c,[["render",s],["__file","index.html.vue"]]);export{l as default};
