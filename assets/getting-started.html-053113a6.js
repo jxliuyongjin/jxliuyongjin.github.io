@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-8fafed08","path":"/%E5%89%8D%E5%8F%B0/wechat/guide/getting-started.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"前台/wechat/guide/getting-started.md"}');export{t as data};
