@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,b as c}from"./app-8e6f770e.js";const n={},r=e("h2",{id:"myology",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#myology","aria-hidden":"true"},"#"),c(" myology")],-1),s=[r];function _(d,i){return t(),a("div",null,s)}const h=o(n,[["render",_],["__file","index.html.vue"]]);export{h as default};
