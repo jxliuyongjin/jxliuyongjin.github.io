@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-71d833fc","path":"/java/mybatisflus/%E9%85%8D%E7%BD%AE.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"创建springboot","slug":"创建springboot","link":"#创建springboot","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"java/mybatisflus/配置.md"}');export{t as data};
