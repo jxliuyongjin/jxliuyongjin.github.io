@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-88c3ef70","path":"/java/mybatisplus/3.%E6%9E%84%E9%80%A0%E5%99%A8.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"java/mybatisplus/3.构造器.md"}');export{t as data};
