@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-1248341f","path":"/java/idea/Idea%E5%BF%AB%E6%8D%B7%E9%94%AE.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"java/idea/Idea快捷键.md"}');export{a as data};
