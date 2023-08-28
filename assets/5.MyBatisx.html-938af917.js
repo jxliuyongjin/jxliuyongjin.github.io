@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-a0aa8db6","path":"/java/mybatisplus/5.MyBatisx.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":3,"title":"1、安装MyBatisX","slug":"_1、安装mybatisx","link":"#_1、安装mybatisx","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"java/mybatisplus/5.MyBatisx.md"}');export{t as data};
