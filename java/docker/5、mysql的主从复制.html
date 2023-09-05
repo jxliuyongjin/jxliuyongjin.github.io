@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>我的blog ！</title><meta name="description" content="这是我的blog站点~">
+    <link rel="preload" href="/assets/style-3403cc01.css" as="style"><link rel="stylesheet" href="/assets/style-3403cc01.css">
+    <link rel="modulepreload" href="/assets/app-241ee0f8.js"><link rel="modulepreload" href="/assets/5、mysql的主从复制.html-c0285bfe.js"><link rel="modulepreload" href="/assets/5、mysql的主从复制.html-ab905df2.js"><link rel="prefetch" href="/assets/index.html-410cb306.js" as="script"><link rel="prefetch" href="/assets/linux命令.html-8187b94f.js" as="script"><link rel="prefetch" href="/assets/腾讯云服务器CentOS7安装mysql8.html-b23f640f.js" as="script"><link rel="prefetch" href="/assets/1、安装.html-8c92464e.js" as="script"><link rel="prefetch" href="/assets/2、常用命令.html-7ebe9919.js" as="script"><link rel="prefetch" href="/assets/3、自定义镜像.html-072123c3.js" as="script"><link rel="prefetch" href="/assets/4、安装软件.html-a15ea009.js" as="script"><link rel="prefetch" href="/assets/6、dockerfile.html-037b2f5c.js" as="script"><link rel="prefetch" href="/assets/Idea快捷键.html-a9b03a35.js" as="script"><link rel="prefetch" href="/assets/maven.html-11d63bcb.js" as="script"><link rel="prefetch" href="/assets/1.配置.html-1f413112.js" as="script"><link rel="prefetch" href="/assets/2.基础操作.html-31ae2942.js" as="script"><link rel="prefetch" href="/assets/3.构造器.html-a1d4799f.js" as="script"><link rel="prefetch" href="/assets/4.插件.html-7c8c197c.js" as="script"><link rel="prefetch" href="/assets/5.MyBatisx.html-f1d13a96.js" as="script"><link rel="prefetch" href="/assets/google chrome安装.html-e4925b66.js" as="script"><link rel="prefetch" href="/assets/404.html-f9875e7b.js" as="script"><link rel="prefetch" href="/assets/index.html-2a7f4bbb.js" as="script"><link rel="prefetch" href="/assets/linux命令.html-8f840f13.js" as="script"><link rel="prefetch" href="/assets/腾讯云服务器CentOS7安装mysql8.html-330b2082.js" as="script"><link rel="prefetch" href="/assets/1、安装.html-9487731c.js" as="script"><link rel="prefetch" href="/assets/2、常用命令.html-aaa54c76.js" as="script"><link rel="prefetch" href="/assets/3、自定义镜像.html-9e73e960.js" as="script"><link rel="prefetch" href="/assets/4、安装软件.html-8b3fecb9.js" as="script"><link rel="prefetch" href="/assets/6、dockerfile.html-e1e73040.js" as="script"><link rel="prefetch" href="/assets/Idea快捷键.html-507c1883.js" as="script"><link rel="prefetch" href="/assets/maven.html-63be10e1.js" as="script"><link rel="prefetch" href="/assets/1.配置.html-7440e757.js" as="script"><link rel="prefetch" href="/assets/2.基础操作.html-3d418c4f.js" as="script"><link rel="prefetch" href="/assets/3.构造器.html-0327ffc9.js" as="script"><link rel="prefetch" href="/assets/4.插件.html-5e6726bd.js" as="script"><link rel="prefetch" href="/assets/5.MyBatisx.html-61dda167.js" as="script"><link rel="prefetch" href="/assets/google chrome安装.html-3217df36.js" as="script"><link rel="prefetch" href="/assets/404.html-2f5b8a49.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><!----><span class="site-name">我的blog ！</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button class="toggle-color-mode-button" title="toggle color mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><!----><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading collapsible">game <span class="right arrow"></span></p><ul style="display:none;" class="sidebar-item-children"><!--[--><li style=""><p tabindex="0" class="sidebar-item collapsible">game101 <span class="right arrow"></span></p><!----></li><!--]--></ul></li><li><p tabindex="0" class="sidebar-item sidebar-heading active collapsible">java <span class="down arrow"></span></p><ul style="" class="sidebar-item-children"><!--[--><li style=""><p tabindex="0" class="sidebar-item active collapsible">docker <span class="down arrow"></span></p><ul style="" class="sidebar-item-children"><!--[--><li style=""><a href="/java/docker/1、安装.md" class="sidebar-item" aria-label="1、安装"><!--[--><!--]--> 1、安装 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/docker/2、常用命令.md" class="sidebar-item" aria-label="2、常用命令"><!--[--><!--]--> 2、常用命令 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/docker/3、自定义镜像.md" class="sidebar-item" aria-label="3、自定义镜像"><!--[--><!--]--> 3、自定义镜像 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/docker/4、安装软件.md" class="sidebar-item" aria-label="4、安装软件"><!--[--><!--]--> 4、安装软件 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/docker/5、mysql的主从复制.md" class="sidebar-item active" aria-label="5、mysql的主从复制"><!--[--><!--]--> 5、mysql的主从复制 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/docker/6、dockerfile.md" class="sidebar-item" aria-label="6、dockerfile"><!--[--><!--]--> 6、dockerfile <!--[--><!--]--></a><!----></li><!--]--></ul></li><li style=""><p tabindex="0" class="sidebar-item collapsible">idea <span class="right arrow"></span></p><ul style="display:none;" class="sidebar-item-children"><!--[--><li style=""><a href="/java/idea/Idea快捷键.md" class="sidebar-item" aria-label="Idea快捷键"><!--[--><!--]--> Idea快捷键 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/idea/maven.md" class="sidebar-item" aria-label="maven"><!--[--><!--]--> maven <!--[--><!--]--></a><!----></li><!--]--></ul></li><li style=""><p tabindex="0" class="sidebar-item collapsible">mybatisplus <span class="right arrow"></span></p><ul style="display:none;" class="sidebar-item-children"><!--[--><li style=""><a href="/java/mybatisplus/1.配置.md" class="sidebar-item" aria-label="1.配置"><!--[--><!--]--> 1.配置 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/mybatisplus/2.基础操作.md" class="sidebar-item" aria-label="2.基础操作"><!--[--><!--]--> 2.基础操作 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/mybatisplus/3.构造器.md" class="sidebar-item" aria-label="3.构造器"><!--[--><!--]--> 3.构造器 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/mybatisplus/4.插件.md" class="sidebar-item" aria-label="4.插件"><!--[--><!--]--> 4.插件 <!--[--><!--]--></a><!----></li><li style=""><a href="/java/mybatisplus/5.mybatisx.md" class="sidebar-item" aria-label="5.mybatisx"><!--[--><!--]--> 5.mybatisx <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul></li><li><p tabindex="0" class="sidebar-item sidebar-heading collapsible">utility <span class="right arrow"></span></p><ul style="display:none;" class="sidebar-item-children"><!--[--><li style=""><p tabindex="0" class="sidebar-item collapsible">google <span class="right arrow"></span></p><ul style="display:none;" class="sidebar-item-children"><!--[--><li style=""><a href="/utility/google/google chrome安装.md" class="sidebar-item" aria-label="google chrome安装"><!--[--><!--]--> google chrome安装 <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul></li><li><p tabindex="0" class="sidebar-item sidebar-heading collapsible">wechat <span class="right arrow"></span></p><!----></li><li><p tabindex="0" class="sidebar-item sidebar-heading collapsible">云hosts <span class="right arrow"></span></p><ul style="display:none;" class="sidebar-item-children"><!--[--><li style=""><a href="/云hosts/linux命令.md" class="sidebar-item" aria-label="linux命令"><!--[--><!--]--> linux命令 <!--[--><!--]--></a><!----></li><li style=""><a href="/云hosts/腾讯云服务器CentOS7安装mysql8.md" class="sidebar-item" aria-label="腾讯云服务器CentOS7安装mysql8"><!--[--><!--]--> 腾讯云服务器CentOS7安装mysql8 <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><div class="anchor-right" data-v-b4a30246><div class="anchor-right-content" data-v-b4a30246><ul data-v-b4a30246><!--[--><!--[--><li class="level level-3" data-v-b4a30246>一、配置修改</li><!--]--><!--]--></ul></div></div><!--[--><!--]--><div><h3 id="一、配置修改" tabindex="-1"><a class="header-anchor" href="#一、配置修改" aria-hidden="true">#</a> 一、配置修改</h3><h4 id="_1、主服务器配置" tabindex="-1"><a class="header-anchor" href="#_1、主服务器配置" aria-hidden="true">#</a> 1、主服务器配置</h4><h5 id="_1-1、创建实例" tabindex="-1"><a class="header-anchor" href="#_1-1、创建实例" aria-hidden="true">#</a> 1.1、创建实例</h5><p>//使用数据卷备份数据库</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>docker run -d -p 3306:3306 --name=sql-master \
+-v /datacache/mysql-master/log:/var/log/mysql \
+-v /datacache/mysql-master/data:/var/lib/mysql \
+-v /datacache/mysql-master/conf:/etc/mysql/conf.d \
+--privileged=true \
+-e MYSQL_ROOT_PASSWORD=Real@123456 mysql
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5 id="_1-2、修改配置文件" tabindex="-1"><a class="header-anchor" href="#_1-2、修改配置文件" aria-hidden="true">#</a> 1.2、修改配置文件</h5><p>修改宿主机上的/datacache/mysql/conf/my.cnf文件，使得内容如下：</p><div class="language-sql line-numbers-mode" data-ext="sql"><pre class="language-sql"><code><span class="token punctuation">[</span>client<span class="token punctuation">]</span>
+default_character_set<span class="token operator">=</span>utf8
+<span class="token punctuation">[</span>mysqld<span class="token punctuation">]</span>
+collation_server<span class="token operator">=</span>utf8_general_ci
+character_set_server<span class="token operator">=</span>utf8
+<span class="token comment">###设置server_id,同一局域网中需要唯一</span>
+server_id<span class="token operator">=</span><span class="token number">101</span>
+read_only<span class="token operator">=</span><span class="token number">0</span>
+<span class="token comment">###指定不需要同步的数据库名称</span>
+binlog<span class="token operator">-</span><span class="token keyword">ignore</span><span class="token operator">-</span>db<span class="token operator">=</span>mysql
+<span class="token comment">###开启二进制日志功能</span>
+<span class="token comment">##log-bin=mall-mysql-bin</span>
+<span class="token comment">###设置二进制日子使用的内存大小（事务）</span>
+<span class="token comment">##binlog_cache_size=1M</span>
+<span class="token comment">###设置使用的二进制日志格式</span>
+<span class="token comment">##binlog_format=mixed</span>
+<span class="token comment">###二进制日志过期清理时间，默认为0，表示不自动清理</span>
+<span class="token comment">##expire_logs_days=7</span>
+<span class="token comment">##跳过主从赋值中遇到的所有错误或者指定类型的错误，避免slave端复制中断。</span>
+<span class="token comment">##如：1062错误是指一些主键重复，1032错误是指主从数据库不一致</span>
+<span class="token comment">##slave_skip_error=1062</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>重启mysql容器，docker restart sql-master</p><h5 id="_1-3、创建数据的同步用户" tabindex="-1"><a class="header-anchor" href="#_1-3、创建数据的同步用户" aria-hidden="true">#</a> 1.3、创建数据的同步用户</h5><p>给主机创建数据同步用户</p><div class="language-sql line-numbers-mode" data-ext="sql"><pre class="language-sql"><code><span class="token comment">//进入mysql容器</span>
+docker <span class="token keyword">exec</span> <span class="token operator">-</span>it <span class="token keyword">sql</span><span class="token operator">-</span>master <span class="token operator">/</span>bin<span class="token operator">/</span>bash
+<span class="token comment">//进入mysql</span>
+mysql <span class="token operator">-</span>uroot <span class="token operator">-</span>p<span class="token punctuation">;</span>
+<span class="token comment">//创建用户</span>
+<span class="token keyword">CREATE</span> <span class="token keyword">USER</span> <span class="token string">&#39;slave&#39;</span><span class="token variable">@&#39;%&#39;</span> IDENTIFIED <span class="token keyword">WITH</span> mysql_native_password <span class="token keyword">BY</span> <span class="token string">&#39;Real@123456&#39;</span><span class="token punctuation">;</span>
+<span class="token comment">//给slave用户授权</span>
+<span class="token keyword">GRANT</span> <span class="token keyword">REPLICATION</span> SLAVE <span class="token keyword">ON</span> <span class="token operator">*</span><span class="token punctuation">.</span><span class="token operator">*</span> <span class="token keyword">TO</span> <span class="token string">&#39;slave&#39;</span><span class="token variable">@&#39;%&#39;</span><span class="token punctuation">;</span>
+
+<span class="token comment">//查看日志文件位置</span>
+mysql<span class="token operator">&gt;</span> <span class="token keyword">show</span> master <span class="token keyword">status</span><span class="token punctuation">;</span>
+<span class="token operator">+</span><span class="token comment">---------------+----------+--------------+------------------+-------------------+</span>
+<span class="token operator">|</span> <span class="token keyword">File</span>          <span class="token operator">|</span> Position <span class="token operator">|</span> Binlog_Do_DB <span class="token operator">|</span> Binlog_Ignore_DB <span class="token operator">|</span> Executed_Gtid_Set <span class="token operator">|</span>
+<span class="token operator">+</span><span class="token comment">---------------+----------+--------------+------------------+-------------------+</span>
+<span class="token operator">|</span> binlog<span class="token punctuation">.</span><span class="token number">000005</span> <span class="token operator">|</span>      <span class="token number">711</span> <span class="token operator">|</span>              <span class="token operator">|</span> mysql            <span class="token operator">|</span>                   <span class="token operator">|</span>
+<span class="token operator">+</span><span class="token comment">---------------+----------+--------------+------------------+-------------------+</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="_2、从服务器配置" tabindex="-1"><a class="header-anchor" href="#_2、从服务器配置" aria-hidden="true">#</a> 2、从服务器配置</h4><h5 id="_2-1、创建从服务器" tabindex="-1"><a class="header-anchor" href="#_2-1、创建从服务器" aria-hidden="true">#</a> 2.1、创建从服务器</h5><div class="language-mysql line-numbers-mode" data-ext="mysql"><pre class="language-mysql"><code>//创建从服务器，注意端口号改成3308，容器名字，数据卷地址都要修改的
+docker run -d -p 3308:3306 --name=sql-slave \
+-v /datacache/mysql-slave/log:/var/log/mysql \
+-v /datacache/mysql-slave/data:/var/lib/mysql \
+-v /datacache/mysql-slave/conf:/etc/mysql/conf.d \
+--privileged=true \
+-e MYSQL_ROOT_PASSWORD=Real@123456 mysql
+
+//查看是否运行成功
+docker ps
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5 id="_2-2、修改从服务器配置" tabindex="-1"><a class="header-anchor" href="#_2-2、修改从服务器配置" aria-hidden="true">#</a> 2.2、修改从服务器配置</h5><div class="language-mysql line-numbers-mode" data-ext="mysql"><pre class="language-mysql"><code>//进入到宿主机中从服务器的数据卷的配置中
+cd /datacache/mysql-slave/conf
+//添加配置文件
+vim my.cnf
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在配置文件中粘贴一下内容</p><div class="language-mysql line-numbers-mode" data-ext="mysql"><pre class="language-mysql"><code>[client]
+default_character_set=utf8
+[mysqld]
+collation_server=utf8_general_ci
+character_set_server=utf8
+###设置从服务器的server_id,同一局域网中需要唯一
+server_id=102
+###指定不需要同步的数据库名称
+binlog-ignore-db=mysql
+##slave设置为只读（具有super权限的用户除外）
+read_only=1
+###开启二进制日志功能,以备slave作为其他数据库实例的主机时使用
+##log-bin=mall-mysql-slave-bin
+###设置二进制日子使用的内存大小（事务）
+##binlog_cache_size=1M
+###设置使用的二进制日志格式
+##binlog_format=mixed
+###二进制日志过期清理时间，默认为0，表示不自动清理
+##expire_logs_days=7
+##跳过主从赋值中遇到的所有错误或者指定类型的错误，避免slave端复制中断。
+##如：1062错误是指一些主键重复，1032错误是指主从数据库不一致
+##slave_skip_error=1062
+
+##relay_log配置中继日志
+##relay_log=mall-mysql-relay-bin
+##slave将复制事件写入自己的二进制日志
+##log_slave_updates=1
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5 id="_2-4、从服务器中配置主从复制" tabindex="-1"><a class="header-anchor" href="#_2-4、从服务器中配置主从复制" aria-hidden="true">#</a> 2.4、从服务器中配置主从复制</h5><p>进入从服务器，并配置主从关系</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>docker exec -it sql-slave /bin/bash
+
+mysql -uroot -p
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>mysql8.0.23之前执行下列</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>change master to master_host=&#39;主机ip&#39;, 
+master_user=&#39;slave&#39;, master_password=&#39;123456&#39;, 
+master_port=3306, master_log_file=&#39;mall-mysql-bin.0000004&#39;,
+master_log_pos=167, master_connect_retry=30;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>mysql8.0.23之后版本执行下列</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>change replication source to source_host=&#39;1.116.82.74&#39;,
+source_user=&#39;slave&#39;, source_password=&#39;Real@123456&#39;,
+source_port=3306, source_log_file=&#39;binlog.000003&#39;,
+source_log_pos=156,  source_connect_retry=30;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5 id="_2-5、从服务器中查看主从同步状态" tabindex="-1"><a class="header-anchor" href="#_2-5、从服务器中查看主从同步状态" aria-hidden="true">#</a> 2.5、从服务器中查看主从同步状态</h5><p>使用 show slave status \G:命令</p><div class="language-mysql line-numbers-mode" data-ext="mysql"><pre class="language-mysql"><code>mysql&gt; show slave status \G:
+*************************** 1. row ***************************
+               Slave_IO_State: 
+                  Master_Host: 1.116.82.74
+                  Master_User: slave
+                  Master_Port: 3306
+                Connect_Retry: 30
+              Master_Log_File: binlog.000004
+          Read_Master_Log_Pos: 156
+               Relay_Log_File: 9de67dc2c9e0-relay-bin.000001
+                Relay_Log_Pos: 4
+        Relay_Master_Log_File: binlog.000004
+             Slave_IO_Running: No
+            Slave_SQL_Running: No
+              Replicate_Do_DB: 
+          Replicate_Ignore_DB: 
+           Replicate_Do_Table: 
+       Replicate_Ignore_Table: 
+      Replicate_Wild_Do_Table:  
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意：Slave_IO_Running和Slave_SQL_Running都显示no。需要执行下一步</p><h5 id="_2-6、在从服务器中开启主从同步" tabindex="-1"><a class="header-anchor" href="#_2-6、在从服务器中开启主从同步" aria-hidden="true">#</a> 2.6、在从服务器中开启主从同步</h5><p>start replica;//或者start slave(8.0.22版本之前的)</p><div class="language-mysql line-numbers-mode" data-ext="mysql"><pre class="language-mysql"><code>mysql&gt; start replica;
+Query OK, 0 rows affected (0.05 sec)
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h5 id="_2-7、测试" tabindex="-1"><a class="header-anchor" href="#_2-7、测试" aria-hidden="true">#</a> 2.7、测试</h5><h6 id="_2-7-1、查看数据库状态是否已经同步" tabindex="-1"><a class="header-anchor" href="#_2-7-1、查看数据库状态是否已经同步" aria-hidden="true">#</a> 2.7.1、查看数据库状态是否已经同步</h6><div class="language-msyql line-numbers-mode" data-ext="msyql"><pre class="language-msyql"><code>mysql&gt; show slave status \G:
+*************************** 1. row ***************************
+               Slave_IO_State: Waiting for source to send event
+                  Master_Host: 1.116.82.74
+                  Master_User: slave
+                  Master_Port: 3306
+                Connect_Retry: 30
+              Master_Log_File: binlog.000003
+          Read_Master_Log_Pos: 156
+               Relay_Log_File: 07be233466a0-relay-bin.000002
+                Relay_Log_Pos: 321
+        Relay_Master_Log_File: binlog.000003
+             Slave_IO_Running: Yes
+            Slave_SQL_Running: Yes
+              Replicate_Do_DB: 
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>其中 Slave_IO_Running: 和Slave_SQL_Running:参数已经表示同步成功</p><h6 id="_2-7-2、数据同步检测" tabindex="-1"><a class="header-anchor" href="#_2-7-2、数据同步检测" aria-hidden="true">#</a> 2.7.2、数据同步检测</h6><p>在主数据中创建数据，看看从服务器是否有数据</p></div><!--[--><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: 522585487@qq.com">刘勇进</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-241ee0f8.js" defer></script>
+  </body>
+</html>
