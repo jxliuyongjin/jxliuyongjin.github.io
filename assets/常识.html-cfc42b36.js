@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6b010ac1","path":"/utility/%E5%B8%B8%E8%AF%86.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695510565000,"contributors":[{"name":"刘勇进","email":"522585487@qq.com","commits":1}]},"filePathRelative":"utility/常识.md"}');export{t as data};
