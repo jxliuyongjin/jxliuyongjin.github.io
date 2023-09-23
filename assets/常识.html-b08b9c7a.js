@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _,a as c}from"./app-09fca0e8.js";const o={},s=c("p",null,"udp： 1、包过大：有时候服务器收不到，用抓包试试，有可能是数据包太大了，一个报文最大（mtu）数量为1500个字节，出去文头20+8+x，一般定义在1400个字节 2、udp不是个长连接，不可以分包",-1),n=[s];function a(r,l){return t(),_("div",null,n)}const u=e(o,[["render",a],["__file","常识.html.vue"]]);export{u as default};

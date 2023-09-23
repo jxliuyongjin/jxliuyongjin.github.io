@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-31a56089","path":"/wechat/study/2%E3%80%81%E5%AE%9E%E6%88%98.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"一、基本配置","slug":"一、基本配置","link":"#一、基本配置","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"wechat/study/2、实战.md"}');export{t as data};
